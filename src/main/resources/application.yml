@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:sb-jpa-h2-db
+    username: sa
+    password:
+
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.H2Dialect
+        ddl-auto: update
